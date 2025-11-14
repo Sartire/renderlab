@@ -1,5 +1,5 @@
 from IPython.display import Video, display
-from moviepy.editor import *
+from moviepy import *
 
 import gymnasium as gym
 import time
