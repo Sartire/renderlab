@@ -74,6 +74,6 @@ class RenderFrame(gym.Wrapper):
         start = time.time()
         filename = 'temp-{start}.mp4'
         clip = VideoFileClip(self.path)
-        clip.write_videofile(filename, verbose = False)
+        clip.write_videofile(filename)
         display(Video(filename, embed = True))
         os.remove(filename)
