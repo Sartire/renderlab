@@ -1,4 +1,4 @@
-from IPython.core.display import Video, display
+from IPython.display import Video, display
 from moviepy.editor import *
 
 import gymnasium as gym
